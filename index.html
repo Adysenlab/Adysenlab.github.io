@@ -31,12 +31,37 @@
   <div class="w3-quarter">
     <div class="w3-bar w3-xlarge">
       <a href="#" class="w3-bar-item w3-button w3-left"><i class="fa fa-search"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-right"><img class="w3-hide-small w3-circle" src="images/favicon.png" style="height:40px;"></a>
+      <a href="#" class="w3-bar-item w3-button w3-right">
+        <img onclick="document.getElementById('mission').style.display='block'" class="w3-hide-small w3-circle" src="images/favicon.png" style="height:40px;">
+      </a>
     </div>
 
   </div>
 </div>
 
+<!-- The Missison statement -->
+<div id="mission" class="w3-modal">
+    <div class="w3-modal-content">
+        <header class="w3-container w3-teal"> 
+            <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Mission Statement</h2>
+          </header>
+      <div class="w3-container">
+        <span onclick="document.getElementById('mission').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <p>ॐ सह नाववतु।    <div class="w3-right-align"><p>Oṁ Saha nāvavatu</p></div></p>
+        <p>सह नौ भुनक्तु।  <div class="w3-right-align"><p>saha nau bhunaktu</p></div></p>
+        <p>सह वीर्यं करवावहै।   <div class="w3-right-align"><p>Saha vīryam karavāvahai</p></div></p>
+        <p>तेजस्वि नावधीतमस्तु  <div class="w3-right-align"><p>Tejasvi nāvadhītamastu</p></div></p>
+        <p>मा विद्विषावहै।  <div class="w3-right-align"><p>Mā vidviṣāvahai</p></div></p>
+        <p>ॐ शान्तिः शान्तिः शान्तिः ॥  <div class="w3-right-align"><p>Oṁ Shāntiḥ, Shāntiḥ, Shāntiḥ</p></div></p>
+      </div>
+      <footer class="w3-container w3-teal">
+          <p>Copyright Adysen-lab</p>
+        </footer>
+    </div>
+  </div>
 <div class="w3-container w3-padding-32 w3-theme-d1">
   <h1>AdySen Innovatoin Laboratory</h1>
 </div>
