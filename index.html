@@ -8,25 +8,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
 
-
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        
-        <a href="pages/news.html">News</a>
-        <a href="pages/CommingSoon.html">Clients</a>
-        <a href="pages/Ping.html">Circulars</a>
-        <a href="#">About</a>
-      </div>
       <div class="w3-top">
           <div class="w3-row w3-padding w3-black">
             <div class="w3-col s3">
-              <a href="pages/news.html" class="w3-button w3-block w3-black">NEWS</a>
+              <a href="pages/Ping.html" class="w3-button w3-block w3-black">Ping</a>
             </div>
             <div class="w3-col s3">
               <a href="pages/CommingSoon.html" class="w3-button w3-block w3-black">Releases</a>
             </div>
             <div class="w3-col s3">
-              <a href="pages/Ping.html" class="w3-button w3-block w3-black">CONTACT US</a>
+              <a href="pages/CommingSoon.html" class="w3-button w3-block w3-black">Connect</a>
             </div>
             <div class="w3-col s3">
               <a href="https://github.com/Adysenlab" class="w3-button w3-block w3-black">Go To Code</a>
@@ -39,9 +30,9 @@
 <div id="mission" class="w3-modal">
     <div class="w3-modal-content">
         <header class="w3-container w3-teal"> 
-            <span onclick="document.getElementById('id01').style.display='none'" 
+            <span onclick="document.getElementById('mission').style.display='none'" 
             class="w3-button w3-display-topright">&times;</span>
-            <h2>Mission Statement</h2>
+            <h2>What we strive for</h2>
           </header>
       <div class="w3-container">
         <span onclick="document.getElementById('mission').style.display='none'" 
@@ -58,9 +49,11 @@
         </footer>
     </div>
   </div>
-<div class="w3-container w3-padding-32 w3-theme-d1">
-  <h1>AdySen Innovatoin Laboratory</h1>
-</div>
+  <header class="w3-container w3-pale-yellow w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo">Adysen-lab</h1>
+      <p class="w3-xlarge">Innovation within</p>
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="document.getElementById('mission').style.display='block'">Mission</button>
+    </header>
 
 <div class="w3-row-padding w3-theme">
 
@@ -113,23 +106,10 @@ your firewall making it accessible for P2P applications
 <p class="w3-large"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
     <img alt="Creative Commons License" style="border-width:0" 
     src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
-    This work is licensed under a <a rel="license" 
-    href="http://creativecommons.org/licenses/by-nc/4.0/">
-    Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 </p>
 </div>
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-}
-</script>
 
 </body>
 </html>
