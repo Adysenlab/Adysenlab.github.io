@@ -86,3 +86,14 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+.vl {
+    border-left: 6px solid green;
+}
+
+
+.jabber {
+    
+    opacity: 0.5;
+    filter: Alpha(opacity=30); /* IE8 and earlier */
+}

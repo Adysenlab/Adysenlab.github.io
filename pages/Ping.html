@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="../css/blue-grey.css">
+<link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
 body {font-family: "Roboto", sans-serif}
@@ -17,15 +18,16 @@ body {font-family: "Roboto", sans-serif}
   <a class="w3-bar-item w3-button w3-light-grey" href="#graphene">Graphene</a>
   <a class="w3-bar-item w3-button" href="#protium">Protium</a>
   <a class="w3-bar-item w3-button" href="#diamond">Diamond</a>
-  <a class="w3-bar-item w3-button" href="#">Link 3</a>
+  <a class="w3-bar-item w3-button" href="#helium">Helium</a>
   <a class="w3-bar-item w3-button" href="#">Link 4</a>
   <a class="w3-bar-item w3-button" href="#">Link 5</a>
   <div>
-    <a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">Subcategories<i class="fa fa-caret-down"></i></a>
-    <div id="demo" class="w3-hide">
+    <a class="w3-bar-item w3-button" onclick="myAccordion('Fields')" href="javascript:void(0)">Areas of Work<i class="fa fa-caret-down"></i></a>
+    <div id="Fields" class="w3-hide">
       <a class="w3-bar-item w3-button" href="#">AI</a>
-      <a class="w3-bar-item w3-button" href="#">Link</a>
-      <a class="w3-bar-item w3-button" href="#">Link</a>
+      <a class="w3-bar-item w3-button" href="#">ML</a>
+      <a class="w3-bar-item w3-button" href="#">IOT</a>
+      <a class="w3-bar-item w3-button" href="#">P2P</a>  
     </div>
   </div>
 </nav>
@@ -34,7 +36,7 @@ body {font-family: "Roboto", sans-serif}
 
 <div class="w3-main" style="margin-left:250px;">
 
-<div id="myTop" class="w3-container w3-top w3-theme w3-large">
+<div id="myTop" class="w3-container w3-top w3-theme w3-large jabber">
   <p><i class="fa fa-bars w3-button w3-light-grey w3-hide-large w3-xlarge" onclick="w3_open()"></i>
   <span id="myIntro" class="w3-hide">Circular Dev-ops <a href="https://adysenlab.github.io/" style="text-decoration: none">Adysen lab</a> [Research unit of <a href="https://radii.in/" style="text-decoration: none">Radii Corp</a>] .</span></p>
 </div>
@@ -46,7 +48,15 @@ body {font-family: "Roboto", sans-serif}
 <div class="w3-row-padding w3-content" style="max-width:1400px">
         <div id="graphene"class="w3-twothird">
           <img src="https://i1.wp.com/developwear.com/wp-content/uploads/2016/03/firebase-logo.jpg?resize=600%2C231" alt="Notebook" style="width:100%">
-          <h2>Graphene Web as boilerplate </h2>
+          <h2>Graphene Web as boilerplate 
+            <div class="vl">
+              <h3>
+                <i style="color: #4000ff">Stage: Beta Test</i><br/>
+                <i style="color: rgb(189, 36, 255)">Category:Tutorial</i><br/>
+                <i style="color: rgb(189, 36, 255)">Version:1 Minor:001</i>
+              </h3>
+            </div>
+          </h2>
           <div class="w3-justify">
             <p>
               Partnering with our associates we have developed this tutorial for building the next web.
@@ -67,6 +77,13 @@ body {font-family: "Roboto", sans-serif}
           <div class="w3-twothird">
           <img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="Express NodeJs app" style="width:100%">
           <h2>Graphene server boilerplate  </h2>
+          <div class="vl">
+              <h3>
+                <i style="color: #4000ff">Stage: Beta Test</i><br/>
+                <i style="color: rgb(189, 36, 255)">Category:Tutorial</i><br/>
+                <i style="color: rgb(189, 36, 255)">Version:1 Minor:001</i>
+              </h3>
+            </div>
           <div class="w3-justify">
             <p>
               Partnering with our associates we have developed this tutorial for building the next web.
@@ -95,7 +112,7 @@ body {font-family: "Roboto", sans-serif}
           </div>
           <br>
           <div class="w3-container w3-light-grey w3-justify">
-            <h2>Very New News!</h2>
+            <h2>Hot and Trending cloud development at scale !!</h2>
             <p class="w3-justify">There are multiple people who use the web but are not able to harness the current virtualization scenario. multiple merchants still use the pen paper based ledgers for large buisenesses which are not effectively scalable. We have made our internal team betas available to you. We advocate the use of google cloud. We are happy to partner with <a href="https://cspace.com/">CSPACE</a> to spread the word. Project is available <a href="#graphene">here.</a></p>
           </div>
           <br>
@@ -105,6 +122,8 @@ body {font-family: "Roboto", sans-serif}
           </div>
 
         </div>
+        <!-- Project Protium starts  -->
+        
         <div id="protium"class="w3-twothird">
           <img src="https://www.geotab.com/geoimages/blog/impact-of-artificial-intelligence.jpg" alt="Artificial Intelligence meme" style="width:100%">
           <h2>Protium AI Librrary </h2> <h3><i>Stage: Alpha</i></h3>
@@ -127,15 +146,16 @@ body {font-family: "Roboto", sans-serif}
         </div>
         <div class="w3-third">
           <div class="w3-container w3-light-grey w3-justify">
-            <h2>Very New News!</h2>
+            <h2>Defacto Advocacy for Knowledge Generation</h2>
             <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
+        <!-- Project Protium ends  -->
         <!-- Project Diamond Starts  -->
 
 
         <div id="diamond"class="w3-twothird">
-          <img src="https://www.geotab.com/geoimages/blog/impact-of-artificial-intelligence.jpg" alt="Artificial Intelligence meme" style="width:100%">
+          <img src="http://enablingideas.com/wp-content/uploads/165943310-big-idea-gettyimages.png" style="width:100%">
           <h2>Diamond AI Actuator </h2><h3><i>Stage: Alpha</i></h3>
           <div class="w3-justify">
             <p>
@@ -143,7 +163,7 @@ body {font-family: "Roboto", sans-serif}
               If you find bugs in codebase please flag an issue to our project at github and we will attend to it.  
             </p>
             <p>
-              Get the code <a href="https://github.com/Adysenlab/AI-Net">here.</a>
+              Get the code <a href="https://github.com/Adysenlab/Automl">here.</a>
             </p>
             <p>
               Contribute to keep this upto date [ updated : September 2018].
@@ -152,19 +172,72 @@ body {font-family: "Roboto", sans-serif}
             <p>
               Ask adysenlab a question <a href="https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY">meet us on slack</a>
             </p>
-            <p>Instructions for using this code <a href="https://github.com/Adysenlab/AI-Net/blob/master/README.md">can be found in this README here </a></p>
+            <p>Instructions for using this code <a href="https://github.com/Adysenlab/Automl/blob/master/README.md">can be found in this README here </a></p>
           </div>
         </div>
         <div class="w3-third">
           <div class="w3-container w3-light-grey w3-justify">
-            <h2>Defacto Advocacy for Diamond</h2>
+            <h2>Defacto Advocacy for Knowledge actuation</h2>
             <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
         <!-- Project Diamond ends  -->
 
-      </div>
+        <!-- Project Helium starts  -->
 
+          <div id="helium"class="w3-twothird">
+          <img src="https://i1.wp.com/discoverplaces.travel/wp-content/uploads/2018/04/logo-DISCOVER-1x3-black.png?fit=1721%2C434" style="width:100%">
+          <h2>Helium PrivateIP [Raw Protocol] </h2><h3><i>Stage: Alpha</i></h3>
+          <div class="w3-justify">
+            <p>
+              Over the Internet every other organism is assigned an IP address which might not be available to communicate to directly. We aim to find the DHCP address assigned to you by your access point. Partnering with our associates at <a href="https://cspace.com/" style="text-decoration-style: dotted;"> Cspace</a> we have developed this peer discovery nechanism. This is in accordance with the IETF specifications. We have made minor changes to the protocol to suit the needs of the internet We aspire to make you truely connected. Upcoming projects are using this codebase internally within the team. We are happy to make it available to you, we are planning to have some podcasts WITH YOU once we finalize with the codebase.  
+              If you find bugs in codebase please flag an issue to our project at github and we will attend to it.  
+            </p>
+            <p>
+              Get the code <a href="https://github.com/Adysenlab/Stun-Man">here.</a>
+            </p>
+            <p>
+              Contribute to keep this upto date [ updated : September 2018].
+              We would be happy to keep you in our dev team and work with you in the long run.
+            </p>
+            <p>
+              Ask adysenlab a question <a href="https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY">meet us on slack</a>
+            </p>
+            <p>Instructions for using this code <a href="https://github.com/Adysenlab/Stun-Man/blob/master/README.md">can be found here</a>.</p>
+          </div>
+        </div>
+        <div class="w3-third">
+          <div class="w3-container w3-light-grey w3-justify">
+            <h2>Defacto Advocacy for P2P connectivity </h2>
+            <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <div class="w3-twothird">
+          <img src="https://www.data.com/connect/index_files/connect-home-image-0118.png" style="width:100%">
+          <h2>Helium ICE Connect [Raw Protocol] </h2><h3><i>Stage: Alpha</i></h3>
+          <div class="w3-justify">
+            <p>
+              We are aware that the Internet is the future of collective reliance.Most social networking sites exploit this passive nature of human interaction, acting to be intermediaries.Risk of veto powers' onthem on us ponder out newer options. Partnering with our associates at <a href="http://www.aecwb.edu.in/index.php" style="text-decoration-style: dotted;"> Asansol Engineering College</a> we have developed this codebase that takes advantage of Helium IP finder suite.This uses the ICE protocol as defined by IETF,  -- in Real time. This is currently in Alpha Testing. This codebase is libNICE and is being tested for our explorations in research in upcoming days. We are happy to make it available to you, we are planning to have some podcasts WITH YOU once we finalize with the codebase.  
+              If you find bugs in codebase please flag an issue to our project at github and we will attend to it.  
+            </p>
+            <p>
+              Get the code <a href="https://github.com/Adysenlab/ICE">here.</a>
+            </p>
+            <p>
+              Contribute to keep this upto date [ updated : September 2018].
+              We would be happy to keep you enlisted and work with you in the long run.
+            </p>
+            <p>
+              Ask adysenlab a question <a href="https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY">meet us on slack</a>
+            </p>
+            <p>Instructions for using this code <a href="https://github.com/Adysenlab/ICE/blob/master/README.md">can be found in this README here </a></p>
+          </div>
+        </div>
+        
+
+      </div>
+      <!-- Project Helium ends  -->
       <!-- Footer for the projects at labs  -->
     <footer class="w3-container w3-theme" style="padding:32px">
         
